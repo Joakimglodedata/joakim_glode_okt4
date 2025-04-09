@@ -13,22 +13,36 @@
   <!-- Body er for det som skal viser på nettsiden -->
   <body>
     <header>
+      <p class="logo">KU</p>
       <nav>
         <a href="">Heim</a>
         <a href="">Om meg</a>
         <a href="">Prosjekter</a>
-      </nav>
+      </nav> 
     </header>
     <main>
       <section>
-        <h1>Velkommen? til min side</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-          neque aut alias quam, adipisci maxime.
-        </p>
+        <section class="hero">
+          <!-- Hero seksjon har barn div og img. div- elemetet har to barn som er h1 og p-->
+          <div class="herotext">
+            <h1>Velkommen? til min side</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+            neque aut alias quam, adipisci maxime.</p>
+            <div class="heroCta">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button>Finn meir her</button>
+            </div>
+          </div>
+          <img class="heroimg" src="smile.jpg" alt="Smil">
+        </section>
       </section>
-      <section>
-        <h2>Om meg</h2>
+      <section class="about">
+        <img class="aoboutimg" src="smile.jpg" alt="Smil">
+        <div class="abouttext">
+          <h2>om meg</h2>
+          <p>Eg er meg og meir meg en noen andre</p>
+          <p>På fritiden et eg stein, spesielt godt på pizza og i lasagne.</p>
+        </div>
       </section>
       <section>
         <h2>Prosjekter</h2>

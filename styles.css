@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    /* Shrothand metode */
+    border: 3px black solid;
+    /* longhand metode
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 20px;
+    max-height: 20px;    
+}
+
+.hero {
+    display: flex;
+}
+.herotext, .heroimg {
+    width: 50%;
+}
+
+.herotext {
+    /* alternativ 1*/
+    /* text-align: center; */
+    /* alternativ 2 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heroCta {
+    display: flex;
+}
+
+section {
+    height: 100vh;
+}
+
+.about {
+    display: flex;
+}
+
+.abouttext, .aboutimg {
+    width: 50%;
+}
+
+.abouttext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
